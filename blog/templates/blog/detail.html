@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load blog_tags %}
+
+{% block title %}{{post.title}}{% endblock %}
+
+{% block content %}
+    <div class="max-w-[800px] mx-auto my-12 border-b border-slate-800">
+        <figure>
+            <img src="{{post.image.url}}" alt="{{post.title}}" class="rounded">
+        </figure>
+        <p class="publish italic text-gray-500 text-sm mt-4">-- Publié le {{post.publish}} par <span class="text-red-500">{{post.author}}</span></p>
+        <h2 class="title text-4xl text-red-400 font-alata mt-12 mb-10">{{post.title}}</h2>
+        <div class="text-slate-950 dark:text-white text-xl leading-loose">{{post.body|safe|linebreaks}}</div>
+
+
+        <h2 class="text-center font-alata text-3xl text-gray-600 dark:text-white mt-10">Images Associées...</h2>
+
+        <div class="flex flex-col mt-10 space-y-2 md:space-y-0 md:space-x-2">
+            <div class="cls1 flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 px-2">
+                <figure class="w-100 p-2">
+                    <img src="{{post.image1.url}}" alt="{{post.title}}" class="rounded">
+                </figure>
+                <figure class="w-100 p-2">
+                    <img src="{{post.image2.url}}" alt="{{post.title}}" class="rounded">
+                </figure>
+            </div>
+        </div>
+
+        <div class="text-slate-950 dark:text-white text-xl leading-loose mt-10">{{post.body2|safe|linebreaks}}</div>
+
+        <div class="my-10">
+            <a href="{% url 'blog:post_share' post.id %}" 
+            class="flex items-center space-x-4 text-red-400 rounded p-3 font-sans hover:bg-red-400 hover:text-white">
+                <ion-icon name="share-social-outline" class="h-8 w-8"></ion-icon>
+                <p>Partager cet article</p>
+            </a>
+        </div>  
+        <!-- Articles similaires -->
+         <div class="similar-post my-10 bg-blue-400 p-4 rounded">
+            <h2 class="text-slate-800 text-3xl font-bold font-alata mb-3">Articles similaires</h2>
+            {% for post in similars_posts %}
+                <div class="flex items-center space-x-2 mb-2">
+                    <ion-icon name="arrow-forward-circle" class="h-6 w-6 text-gray-700"></ion-icon>
+                    <a href="{{post.get_absolute_url}}" class="text-white hover:text-gray-800">{{post.title}}</a>
+                </div>
+                {% empty %}
+                <p>Aucun article similaire pour l'instant.</p>
+            {% endfor %}
+         </div>
+
+        <div class="comment-section">
+       
+            {% with comments.count as total_comments %}
+                <h2 class="text-2xl mb-4 text-slate-950 dark:text-white"><span class="text-red-400 font-bold text-3xl">{{total_comments}}</span> commentaire{{total_comments|pluralize}} sur cet article.</h2>
+            {% endwith %}
+    
+            {% for comment in comments %}
+                <div class="comment bg-red-300 py-2 px-4 rounded-lg my-8 border-l-4 border-red-900">
+                    <div class="flex space-x-2 font-bold" >
+                    <p class="info mb-2 italic text-red-800 text-sm font-sans">
+                        {{forloop.counter}} Commentaire par {{comment.nom}}
+                        {{comment.created}}
+                    </p>
+                    <span><ion-icon name="time-outline" class="w-4 h-4"></ion-icon></span>
+                </div>
+                    <p>{{comment.commentaire|linebreaks}}</p>
+                </div>
+                {% empty %}
+                <p class="text-xl my-4 italic text-red-400">Aucun commentaire pour l'instant</p>
+            {% endfor %}
+            {% include 'blog/includes/comment_form.html' %} 
+        </div>
+    </div>
+    
+{% endblock %}

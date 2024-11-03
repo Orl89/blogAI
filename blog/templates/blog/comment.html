@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Ajouter un commentaire{% endblock %}
+
+{% block content %}
+    {% if comment %}
+        <div class="max-w-[700px] mx-auto">
+            <h2 class="text-green-500 dark:text-green-300 text-3xl text-center">Votre commentaire a été ajouté.</h2>
+            <div class="border border-top border-gray-400 dark:border-slate-800 mt-6 mb-6"></div>
+            <p><a href="{{ post.get_absolute_url }}" class="text-white bg-red-400 p-4 rounded-full text-center block w-1/2 my-10 mx-auto hover:bg-red-500 duration-200 hover:translate-y-px">Revenir à l'article</a></p>
+        </div>
+    {% else %}
+        {% include "blog/includes/comment_form.html" %}
+    {% endif %}
+{% endblock %}

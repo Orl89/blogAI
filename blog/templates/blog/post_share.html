@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Partager un article{% endblock %}
+
+{% block content %}
+    
+        <div class="container max-w-[800px] mx-auto">
+    {% if sent %}
+            <h2 class="text-3xl text-green-700 dark:text-green-300 text-center mb-4">Message envoyé avec succès</h2>
+            <p class="text-xl text-center text-white">
+                <span class="text-red-400">"{{ post.title }}"</span>
+                <span  class="text-slate-950 dark:text-white">a été envoyé avec succès.</span> 
+            </p>
+            <a href="{% url 'blog:post_list' %}" class="text-white bg-red-400 p-4 rounded-full text-center block w-1/2 my-10 mx-auto hover:bg-red-500 duration-200 hover:translate-y-px">Continuer vers la page des articles</a>
+    {% else %}
+            <h1 class="text-gray-400 text-3xl my-12 font-alata">Partager <span class="text-red-400">"{{ post.title }}"</span> par e-mail</h1>
+
+            <form method="post" class="text-center mb-12" action="">
+                {% csrf_token %}
+                
+                <input type="text" 
+                name="name"
+                required
+                placeholder="Votre nom" 
+                class="block rounded p-4 w-full text-xl border border-red-400 focus:outline focus:outline-0 active:outline-0 mb-4">
+                <input type="email" 
+                name="email"
+                required
+                placeholder="Votre Email" 
+                class="block rounded mb-4 p-4 w-full text-xl border border-red-400 focus:outline-0 active:outline-0">
+               
+                <input type="email" 
+                name="to"
+                required
+                placeholder="Email du destinataire" 
+                class="block rounded mb-4 p-4 w-full text-xl border border-red-400 focus:outline-0 active:outline-0">
+                <textarea name="comments"
+                required
+                placeholder="Commentaires"
+                rows="5"
+                class="block rounded mb-4 p-4 w-full text-xl border border-red-400 focus:outline-0 active:outline-0"></textarea>
+                <input type="submit" value="Envoyer" class="bg-red-400 mt-2 text-white py-3 text-xl w-full px-8 rounded cursor-pointer hover:bg-red-500">
+            </form>
+        </div>
+    {% endif %}
+    <div class="border border-top border-slate-800 mt-6 mb-6"></div>
+{% endblock %}

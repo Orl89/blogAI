@@ -1,0 +1,20 @@
+{% for post in latest_posts %}
+{% load blog_tags %}
+<div class="article-recent bg-white p-5 shadow-xl flex flex-col shadow-gray-400 dark:shadow-none md:min-h-[450px]">
+    <div class="head flex justify-between text-sm mb-5">
+      <p>Infos Cloud</p>
+      <p class="italic text-blue-500">{{post.publish}}</p>
+    </div>
+
+    <div class="content-recent">
+      <h2 class="text-xl text-red-400 font-alata mb-3"><a href="{{post.get_absolute_url}}" class="hover:text-red-500 hover:underline">{{post.title}}</a></h2>
+      <p class="text-base font-sans mb-6">{{post.body|safe|truncatewords:30}}
+      </p>
+    </div>
+
+    <a href="{{post.get_absolute_url}}" 
+      class="bg-red-400 text-white py-2 px-4 mt-4 md:mt-auto block rounded text-center hover:bg-red-500">
+        Lire l'article
+    </a>
+</div>
+{% endfor %}

@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load blog_tags %}
+
+{% block title %}Rechercher{% endblock %}
+
+{% block content %}
+
+{% if requete %}
+    <div>
+        <h1 class="text-4xl text-slate-950 mb-5 dark:text-white text-center">Article contenant <span class="text-red-500 font-bold">"{{ requete }}"</span></h1>
+        <h3 class="mt-3 mb-6 font-bold text-slate-950 dark:text-white text-center">
+            {% with results.count as total_results %}
+                Résultats:  <span class="text-red-500">{{ total_results }}</span>
+                 article{{ total_results|pluralize }}
+            {% endwith %}
+        </h3>
+
+        <div class="relative border border-gray-500 max-w-[800px] mx-auto text-center mt-12 mb-5 bg-gray-200 p-3 rounded-lg">
+            {% with results.count as total_results %}
+             <div class="flex justify-center items-center bg-red-500 p-2 w-10 h-10 rounded-full text-white font-bold text-2xl" id="notif">
+                {{ total_results }}
+            </div>
+            {% endwith %}
+        {% for post in results %}
+            <h4 class="text-center mb-4">
+            <a href="{{ post.get_absolute_url }}" class="font-alata text-red-400 text-3xl hover:underline hover:text-red-500">
+                {{ post.title }}
+            </a>
+            </h4>
+
+            <p class="text-slate-950 dark:text-white">
+                {{ post.body|safe|truncatewords_html:20 }}
+            </p><br><br>
+            {% if not forloop.last %}
+             <div class="border border-top border-gray-400 mb-4 dark:border-slate-800"></div>
+            {% endif %}
+            {% empty %}
+            <p class="italic text-slate-950 dark:text-white text-center">Aucun résultat pour la recherche.</p>
+        {% endfor %}
+        </div>
+
+        <p class="">
+            <a href="{% url 'blog:post_search' %}" class="flex space-x-2 justify-center bg-red-400 text-base block w-64 mx-auto mb-24 text-white p-2 text-center rounded-full hover:bg-red-500 cursor-pointer">
+                <ion-icon name="arrow-forward-outline" class="h-6 w-6"></ion-icon>
+                <span>Rechercher de nouveau...</span>
+            </a>
+        </p>
+
+        {% else %}
+
+        <div class="max-w-[800px] mx-auto mt-12 mb-24 text-center">
+            <h1 class="text-3xl font-alata mb-8 text-slate-950 dark:text-white">Rechercher un article</h1>
+            <form method="get" class="w-96 mx-auto">
+                {% csrf_token %}
+                {% for field in form %}
+                    <span>{{ field}}</span>
+                {% endfor %}
+                <input class="bg-red-400 mt-2 text-xl block w-full text-white p-4 rounded hover:bg-red-500 cursor-pointer" type="submit" value="Rechercher">
+            </form>
+        </div>
+    </div>
+{% endif %}
+
+{% endblock %}

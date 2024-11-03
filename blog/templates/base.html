@@ -1,0 +1,227 @@
+{% load blog_tags %}
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en" class="dark" id="dark-toggle">
+  <head>
+    <title>{% block title %}Blog des Curieux{% endblock %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    {% tailwind_css %}
+  </head>
+
+  <body class="bg-gray-200 dark:bg-slate-950 px-4">
+    <nav class="max-w-[1300px] mx-auto text-slate-950 dark:text-white p-4 flex justify-between items-center pb-5">
+      <a href="{% url 'blog:post_list' %}" class="flex items-center space-x-4">
+        <ion-icon name="partly-sunny-outline" class="w-8 h-8"></ion-icon>
+        <p class="font-alata text-base md:text-xl">Infos Cloud<span class="text-3xl text-red-400">.</span></p>
+      </a>
+
+      <div class="menu flex items-center space-x-6 pt-2">
+        <!-- Dropdown button-->
+        <button class="relative flex justify-center items-center 
+        bg-white border focus:outline-none shadow text-gray-600 rounded focus:ring ring-gray-200 text-xl" id="dropdown">
+          <p class="px-4 font-alata">Menu</p>
+          <span class="border-l border-gray-200 p-2 hover:bg-gray-100 ">
+            <ion-icon name="chevron-down-outline" class="h-6 w-6 block"></ion-icon>
+          </span>
+          <div class="absolute hidden top-full min-w-full w-max bg-white shadow-md mt-1 rounded" id="dropdown-btn">
+            <ul class="text-left border rounded">
+              <li class="px-4 py-1 border-b hover:bg-gray-100">
+                <a href="{% url 'blog:post_list' %}" class="font-alata tracking-tighter md:text-xl hover:text-blue-400">
+                  Liste des articles
+                </a>
+              </li>
+              <li class="px-4 py-1 border-b hover:bg-gray-100">
+                <a href="{% url 'blog:post_search' %}" class="hover:text-blue-400">Effectuer une recherche</a>
+              </li>
+            
+              <li class="px-4 py-1 border-b hover:bg-gray-100 hover:text-blue-400"">
+                Contact : <a href="Tel:+22892497009">+22892497009</a>
+              </li>
+            </ul>
+          </div>
+        </button>
+
+        <button title="Basculer entre mode sombre/clair" id="btn-dark" class="rounded-full h-8 w-8 bg-blue-400 flex justify-center items-center hover:bg-blue-500">
+          <ion-icon name="sunny-outline" id="icon-sun" class="w-6 h-6"></ion-icon>
+          <ion-icon name="moon" id="icon-moon" class="w-6 h-6"></ion-icon>
+        </button>
+        <a href="{% url 'blog:post_search' %}" class="w-10 h-10">
+          <ion-icon name="search-circle" title="Recherher un article" class="w-10 h-10 text-red-500 hover:text-red-400 hover:translate-y-px"></ion-icon>
+        </a>
+      </div>
+    </nav>
+
+    <div class="my-12">
+      <h5 class="font-alata text-white dark:text-slate-950 text-base text-center w-80 mx-auto mt-2 mb-2 p-2 bg-slate-950 dark:bg-white rounded-full">
+        ⚡ Le Blog qui satisfait votre curiosité.
+      </h5>
+      <p class="text-center text-gray-600 dark:text-gray-400 mt-5 text-2xl">Actualités, Astuces Informatiques et divers...😉</p>
+      {% for info in infos_head %}
+      <div class="max-w-[800px] mx-auto">
+          <h1 class="text-5xl font-bold font-sans text-slate-950 leading-4 tracking-tight dark:text-white text-center mt-12 md:leading-12 md:text-7xl">{{info.head_title}}<span class="text-7xl text-red-400">.</span></h1>
+          <p class="mt-5 text-gray-600 dark:text-gray-400 text-xl text-center max-w-[700px] font-sans mx-auto md:text-2xl">
+              {{info.head_descr}}
+          </p>
+      {% endfor %}
+          <div class="border border-top mt-5 border-gray-400 dark:border-slate-800"></div>
+      </div>
+  </div>
+
+    {% block content %} 
+    {% endblock %}
+
+  <div class="stars text-xl text-center">⭐⭐⭐⭐⭐</div>
+
+    <!-- Nombre d'article publiés avec un tag personnalisé -->
+    <p class="text-center font-sans text-xl text-gray-600 dark:text-gray-400 my-10">
+      Articles totals publiés : <span class="text-red-500 font-bold">{% total_posts %}</span>
+    </p>
+
+    <!-- Contenus extras Publiés recemment -->
+    <section class="extra-content pb-10">
+      <h2 class="text-3xl text-center font-alata text-gray-600 dark:text-white pt-10 mb-10">Publiés récemments</h2>
+      <div class="max-w-[900px] mx-auto grid grid-col-1 gap-6 flex justify-center items-center md:grid-cols-3">
+        {% show_latest_posts 3 %}
+      </div>
+    </section>
+
+    <!-- Section plus commentés -->
+    <section class="extra-content pb-16">
+      <h2 class="text-3xl text-center font-alata text-gray-600 dark:text-white pt-10 mb-10">Articles les plus commentés</h2>
+
+      <div class="max-w-[900px] mx-auto grid grid-col-1 gap-6 md:grid-cols-3">
+        {% get_most_commented_posts as most_commented_posts %}
+        {% for post in most_commented_posts %}
+          <div class="article-recent bg-white flex flex-col shadow-xl shadow-gray-400 dark:shadow-none md:min-h-[450px]">
+            <div class="head flex justify-between text-white text-sm mb-5 bg-red-400 p-4">
+              <p>Infos Cloud</p>
+              <p class="italic">{{post.publish}}</p>
+            </div>
+
+            <div class="content-recent flex flex-col space-y-2 p-5">
+              <h2 class="text-2xl font-alata text-red-400">
+                <a href="{{post.get_absolute_url}}" class="hover:text-red-500 hover:underline">{{post.title}}</a>
+              </h2>
+              <p class="text-base font-sans">{{post.body|safe|truncatewords:30}}
+              </p>
+            </div>
+
+            <a href="{{post.get_absolute_url}}" 
+            class="bg-red-400 block text-white text-center mt-6 mx-4 mb-4 md:mt-auto py-2 px-4 rounded hover:bg-red-500">
+              Lire l'article
+            </a>
+          </div>
+        {% endfor %}
+
+      </div>
+    </section>
+    <!-- Section contact -->
+     <h2 class="font-alata text-center mt-16 mb-8 text-gray-600 dark:text-white text-3xl">Pour vos projets...</h2>
+    <section class="section-contacts bg-blue-400 text-white my-6">
+      <div class="container max-w-[1200px] flex flex-col justify-between space-y-8 md:space-y-0 items-center md:flex-row">
+        <h2 class="contact font-alata text-6xl font-bold p-4">Contactez-moi.</h2>
+
+        <p class="group whatsapp flex items-center space-x-2 bg-gray-800 p-8 w-full md:w-64 md:items-center justify-center">
+          <span class="text-2xl font-sans">Whatsapp</span>
+          <a href="{% url 'blog:whatsapp' %}" class="h-8 w-8 group-hover:text-red-400">
+            <ion-icon name="logo-whatsapp" class="h-8 w-8"></ion-icon>
+          </a>
+        </p>
+        <p class="group Email flex items-center space-x-2 bg-gray-800 p-8 w-full md:w-64 md:items-center justify-center">
+          <span class="text-2xl font-sans">Email</span>
+          <a href="mailto:aorlando2889@gmail.com" class="h-8 w-8 group-hover:text-red-400">
+            <ion-icon name="mail-unread" class="h-8 w-8"></ion-icon>
+          </a>
+        </p>
+      </div>
+    </section>
+    <footer class="border-t flex flex-col md:flex-row justify-center border-gray-400 dark:border-slate-800 p-6 text-center text-slate-950 dark:text-white text-sm font-alata">
+      <div>
+        <span>&copy; Copyright - Tous droits réservés </span>
+        <span class="text-red-400 font-bold">2024</span> 
+        <span id="year" class="hidden text-red-400 font-bold">2024</span> Infos cloud.
+      </div> 
+      <span class="text-blue-600 dark:text-blue-400 ml-2">Design by Orlando AK</span>
+    </footer>
+    <!-- Ions icones -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <!-- Code Javascript pour l'année dynamique -->
+    <script>
+      const copyRightYear = document.querySelector('#year')
+      const currentYear = 2024
+      const actualYear = new Date().getFullYear()
+
+      if(actualYear > currentYear){
+        copyRightYear.textContent = `- ${actualYear}`
+        copyRightYear.classList.remove('hidden')
+      }
+
+      // dark mode functionnalities
+      
+      const btn = document.querySelector('#btn-dark');
+      const iconSun = document.querySelector('#icon-sun')
+      const iconMoon = document.querySelector('#icon-moon')
+      const darkToggle = document.querySelector('#dark-toggle')
+
+      
+      iconMoon.style.display = 'None'
+
+      // verifier si le choix du theme préféré existe
+      if(localStorage.getItem('theme')){
+        if(localStorage.getItem('theme')=='sombre'){
+          modeSombre()
+        } else {
+          darkToggle.classList.remove('dark')
+          localStorage.setItem('theme', 'clair')
+        }
+      }
+
+      function modeSombre(){
+        darkToggle.classList.add('dark')
+        iconSun.style.display = 'None'
+        iconMoon.style.display = 'flex'
+        localStorage.setItem('theme', 'sombre')
+      }
+
+      function ToggleDarkLightMode(){
+        
+        iconMoon.classList.toggle('hidden')
+        
+        if(darkToggle.classList.contains('dark')){
+          // mode clair
+          darkToggle.classList.remove('dark')
+          iconSun.style.display = 'flex'
+          iconMoon.style.display = 'None'
+          localStorage.setItem('theme', 'clair')
+        } else {
+          // mode sombre
+          modeSombre()
+        }
+      }
+
+      btn.addEventListener('click', ToggleDarkLightMode)
+
+      // dropdown function
+      const dropDown = document.querySelector('#dropdown')
+      const dropdownBtn = document.querySelector('#dropdown-btn')
+
+      dropDown.addEventListener('click', ()=> {
+        dropdownBtn.classList.toggle('hidden')
+      })
+
+      document.body.addEventListener('click', ()=>{
+
+      })
+
+    </script>
+  </body>
+</html>

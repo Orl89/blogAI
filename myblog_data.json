@@ -1,0 +1,1849 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-07-14T22:26:06.837Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-07-14T22:26:41.387Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-07-15T08:08:59.347Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "BlogHead object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-07-15T08:14:33.914Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Restez connecté pour apprendre plus",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-07-15T09:17:55.325Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-07-15T09:24:43.993Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-07-15T09:33:00.683Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-07-15T09:40:20.620Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Créer et utiliser une clé USB d’installation de Windows 11 ou 10 avec l’outil officiel de Microsoft",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-07-15T11:00:26.454Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "OrlandoAK",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-07-15T13:10:03.942Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Dépanner la plupart des problèmes de carte wifi sur Windows 10 et 11",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-07-15T19:40:53.001Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Restez connecté pour apprendre plus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Head descr\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-07-15T19:46:16.126Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Écran noir sur PC Windows 10/11: comment résoudre la panne",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-07-15T19:50:09.330Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Comment résoudre tout problème de serveur DNS qui ne répond pas – Windows 10 et 11",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-07-15T19:51:34.401Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Écran noir sur PC Windows 10/11: comment résoudre la panne",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-07-17T00:16:56.589Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "SendMail object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-07-17T00:16:56.708Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "SendMail object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-07-17T03:06:54.733Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "27",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-07-17T03:06:54.881Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "26",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-07-17T03:06:55.067Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "25",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-07-17T03:06:55.137Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "24",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-07-17T03:06:55.222Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "23",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-07-17T03:06:55.304Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-07-17T03:06:55.377Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "21",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-07-17T03:06:55.446Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-07-17T03:06:55.708Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-07-17T03:06:55.787Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-07-17T03:06:55.853Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-07-17T03:06:55.974Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-07-17T03:06:56.041Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-07-17T03:06:56.120Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-07-17T03:06:56.256Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-07-17T03:06:56.362Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-07-17T03:06:56.429Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-07-17T03:07:17.872Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-07-17T03:07:18.003Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "AGBOBLI",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-07-17T03:07:27.293Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-07-17T03:07:27.434Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-07-17T03:07:27.523Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-07-17T03:07:27.612Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-07-17T03:07:27.746Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-07-17T04:30:17.851Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Commentaire par fef on Comment résoudre tout problème de serveur DNS qui ne répond pas – Windows 10 et 11",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-07-17T04:30:17.931Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Commentaire par Jonas on Comment résoudre tout problème de serveur DNS qui ne répond pas – Windows 10 et 11",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-07-17T18:29:59.863Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-07-17T18:37:06.543Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-07-17T18:38:00.762Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-07-17T18:38:32.718Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-07-17T18:42:38.836Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-07-17T18:45:19.037Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-07-17T18:50:43.785Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-07-17T18:52:34.722Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-07-17T18:53:46.797Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2024-07-17T18:55:22.792Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2024-07-17T19:03:35.974Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2024-07-17T19:04:21.797Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2024-07-17T19:05:09.527Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2024-07-17T19:05:57.770Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2024-07-17T19:06:18.000Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2024-07-17T19:30:04.928Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Orlando",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2024-07-17T19:35:03.753Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Restez connecté pour apprendre plus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Head descr\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2024-07-17T20:56:58.433Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Informatique",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2024-07-17T20:58:36.405Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2024-07-17T20:59:53.477Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Secrets de l'Intelligence artificielle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2024-07-17T21:54:40.717Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Dépanner la plupart des problèmes de carte wifi sur Windows 10 et 11",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2024-07-18T06:54:46.294Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Créer et utiliser une clé USB d’installation de Windows 11 ou 10 avec l’outil officiel de Microsoft",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2024-07-18T06:55:26.064Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Créer et utiliser une clé USB d’installation de Windows 11 ou 10 avec l’outil officiel de Microsoft",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2024-07-19T21:29:31.597Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Un markdown c'est quoi ?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2024-07-19T21:36:08.131Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Un markdown c'est quoi ?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2024-07-19T21:36:46.804Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Un markdown c'est quoi ?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2024-07-19T21:37:46.762Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Un markdown c'est quoi ?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2024-07-19T21:38:31.554Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Un markdown c'est quoi ?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2024-07-19T21:41:48.050Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Un markdown c'est quoi ?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2024-07-19T21:47:36.367Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Un markdown c'est quoi ?",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2024-07-20T06:54:32.209Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Créer et utiliser une clé USB d’installation de Windows 11 ou 10 avec l’outil officiel de Microsoft",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2024-07-20T06:56:13.931Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Créer et utiliser une clé USB d’installation de Windows 11 ou 10 avec l’outil officiel de Microsoft",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2024-07-20T06:57:24.908Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Créer et utiliser une clé USB d’installation de Windows 11 ou 10 avec l’outil officiel de Microsoft",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2024-07-20T07:27:15.078Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "loca",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2024-07-20T07:27:25.197Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add blog head",
+    "content_type": 8,
+    "codename": "add_bloghead"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change blog head",
+    "content_type": 8,
+    "codename": "change_bloghead"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete blog head",
+    "content_type": 8,
+    "codename": "delete_bloghead"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view blog head",
+    "content_type": 8,
+    "codename": "view_bloghead"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add send mail",
+    "content_type": 9,
+    "codename": "add_sendmail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change send mail",
+    "content_type": 9,
+    "codename": "change_sendmail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete send mail",
+    "content_type": 9,
+    "codename": "delete_sendmail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view send mail",
+    "content_type": 9,
+    "codename": "view_sendmail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add comments",
+    "content_type": 10,
+    "codename": "add_comments"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change comments",
+    "content_type": 10,
+    "codename": "change_comments"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete comments",
+    "content_type": 10,
+    "codename": "delete_comments"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view comments",
+    "content_type": 10,
+    "codename": "view_comments"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 10,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 10,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 10,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 10,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 11,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 11,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 11,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 11,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 12,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 12,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 12,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 12,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 13,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 13,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 13,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 13,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$3JbXad3KDg6oi77ZOlwvyu$dWraJcn/fvPOErKFLIi2HV5oJAti6zrHTC/oXhHqUVs=",
+    "last_login": "2024-07-19T21:26:26.765Z",
+    "is_superuser": true,
+    "username": "OrlandoAK",
+    "first_name": "",
+    "last_name": "",
+    "email": "aorlando2889@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-07-14T22:17:09Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "bloghead"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "blog",
+    "model": "sendmail"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2dww6xz2jrahw4xhq56yftnfis1qxxci",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSH-hpTpfQa0sEvsJALJ2FWUu0dILpL2zcx7swjHvsSj0xZXZFcm2eV3S5CfVAfAB9R747nVfVsTHwo_aedzQ3rdTvfvYIG-jNobJ7xHq0u2ijCZUCYpBYDQ6KySCoxSkApp44IRpMIktZA5kJ18QPb5As6qNw4:1sUBdn:r6kx7aG9rzJ6GQYkf1ELHN3F79pj7Bb3ZteftLfNWYw",
+    "expire_date": "2024-07-31T20:52:47.726Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bw7blsrxpqmdf5btvnzxvhj73w9e63a2",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pBSKHRcuvcMZIaZStVAUtqV8e7apAvd_vfef6mI25rj1mSJM6uzMur0uxGmh5Qd8B3LrepUy7rMpHdFH7Tpa2V5Xg737yBjy9-6D4HBOgZPyXFnCZyFMAoPhCE511uajOkYQQJ6S4lYxI-GCCYZiNX7A-V6OMs:1sT7Xo:zKpSUpUkLNnV1cfjUPPT7JOGjhb9hkasTmms9k-lu0A",
+    "expire_date": "2024-07-28T22:18:12.597Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jgsdbt18vbyzw3w9qr82l12x0rren59u",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSH-hpTpfQa0sEvsJALJ2FWUu0dILpL2zcx7swjHvsSj0xZXZFcm2eV3S5CfVAfAB9R747nVfVsTHwo_aedzQ3rdTvfvYIG-jNobJ7xHq0u2ijCZUCYpBYDQ6KySCoxSkApp44IRpMIktZA5kJ18QPb5As6qNw4:1sUv7S:w4x7Mye4BU0eoCsJNBI408KwCPDUZdrY8kstsSzGim8",
+    "expire_date": "2024-08-02T21:26:26.878Z"
+  }
+},
+{
+  "model": "blog.bloghead",
+  "pk": 1,
+  "fields": {
+    "head_title": "Restez connecté pour apprendre plus",
+    "head_descr": "Informez-vous chaque semaine sur un sujet qui vous passionne ou trouvez une réponse à une question...",
+    "head_img": ""
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Secrets de l'Intelligence artificielle",
+    "author": 1,
+    "image": "images/IA-technologie.jpeg",
+    "slug": "secrets-de-lintelligence-artificielle",
+    "body": "<p><strong>La personnalisation de contenu</strong> est un pilier central de l&rsquo;Intelligence Artificielle et marketing.</p>\r\n\r\n<p>L&rsquo;IA affine les interactions en fonction des donn&eacute;es des clients, ce qui permet de proposer des exp&eacute;riences personnalis&eacute;es &agrave; un niveau quasiment individuel, m&ecirc;me dans une vaste base de donn&eacute;es clients (la quantit&eacute; de donn&eacute;es ne fait pas peur &agrave; <strong><span style=\"background-color:#f1c40f\">ChatGPT</span></strong>).</p>\r\n\r\n<hr />\r\n<p><q>Les recommandations de contenu</q> et offres sur mesure sont con&ccedil;ues gr&acirc;ce &agrave; des algorithmes capables de pr&eacute;dire les pr&eacute;f&eacute;rences des clients avec une pr&eacute;cision stup&eacute;fiante.</p>\r\n\r\n<p><strong>Par exemple:</strong> la plateforme de streaming Netflix utilise l&rsquo;Intelligence Artificielle pour recommander des films et des s&eacute;ries &agrave; chaque utilisateur en fonction de ses pr&eacute;f&eacute;rences de visionnage pass&eacute;es.</p>",
+    "publish": "2024-07-14T22:22:01Z",
+    "created": "2024-07-14T22:26:06.832Z",
+    "updated": "2024-07-17T20:59:53.470Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Créer et utiliser une clé USB d’installation de Windows 11 ou 10 avec l’outil officiel de Microsoft",
+    "author": 1,
+    "image": "images/clés-usb-1.jpg",
+    "slug": "creer-et-utiliser-une-cle-usb-dinstallation-de-windows-11-ou-10-avec-loutil-officiel-de-microsoft",
+    "body": "<h2><strong><big>Comment proc&eacute;der:</big></strong></h2>\r\n\r\n<hr />\r\n<p>Nous allons t&eacute;l&eacute;charger l&rsquo;outil de cr&eacute;ation de support d&rsquo;installation de Windows depuis le site de Microsoft, puis l&rsquo;utiliser avec une cl&eacute; USB. En d&eacute;marrant sur cette cl&eacute; depuis la machine cible, nous pourrons alors installer, r&eacute;installer ou d&eacute;panner et r&eacute;parer Windows.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Voici les pr&eacute;requis pour la cr&eacute;ation de la clef USB bootable: Un PC disposant d&rsquo;une connexion Internet. Une cl&eacute; USB vide avec au moins 8 Go d&rsquo;espace. Nous vous recommandons d&rsquo;utiliser un lecteur USB vierge, car le contenu sur celui-ci sera supprim&eacute;. En fonction du syst&egrave;me d&rsquo;exploitation d&eacute;sir&eacute;: Cliquez ici pour t&eacute;l&eacute;charger l&rsquo;installateur de Windows 11. Vous devez cliquer sur &ldquo;T&eacute;l&eacute;charger&rdquo; sous &ldquo;Cr&eacute;ation d&rsquo;un support d&rsquo;installation de Windows 11&rdquo;.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Le programme mediacreationtool.exe se t&eacute;l&eacute;charge, passez &agrave; l&rsquo;&eacute;tape suivante. Cliquez ici pour t&eacute;l&eacute;charger l&rsquo;installateur de Windows 10 version 22h2. Vous devez cliquer sur &ldquo;T&eacute;l&eacute;charger maintenant l&rsquo;outil&rdquo;. Le programme mediacreationtool.exe se t&eacute;l&eacute;charge, passez &agrave; l&rsquo;&eacute;tape suivante. Cr&eacute;ation du support d&rsquo;installation Branchez sur votre ordinateur une cl&eacute; USB vide, faisant au moins 8Go. Ouvrez le fichier mediacreationtool.exe que vous venez de t&eacute;l&eacute;charger, vous acc&eacute;dez &agrave; la fen&ecirc;tre du contrat de licence Microsoft. Cliquez sur &ldquo;Accepter&rdquo; pour passer &agrave; l&rsquo;&eacute;tape suivante.</p>",
+    "publish": "2024-07-15T09:37:27Z",
+    "created": "2024-07-15T09:40:20.616Z",
+    "updated": "2024-07-20T06:57:24.900Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Dépanner la plupart des problèmes de carte wifi sur Windows 10 et 11",
+    "author": 1,
+    "image": "images/probleme-de-connexion-internet.jpg",
+    "slug": "depanner-la-plupart-des-problemes-de-carte-wifi-sur-windows-10-et-11",
+    "body": "<p>Votre Wifi se d&eacute;connecte intempestivement ou n&rsquo;apparait plus, ou bien vous n&rsquo;avez plus acc&egrave;s &agrave; la liste des r&eacute;seaux disponibles (le logo globe s&rsquo;affiche &agrave; la place du logo Wifi) ? De nombreux bugs peuvent causer des probl&egrave;mes de Wifi, m&ecirc;me si la piste de la carte r&eacute;seau d&eacute;fectueuse n&rsquo;est pas &agrave; &eacute;carter. A l&rsquo;aide de solutions de d&eacute;pannage de r&eacute;seau wifi &eacute;prouv&eacute;es lors de nos interventions, nous verrons dans cet article: Comment retrouver le Wifi &agrave; coup s&ucirc;r si le probl&egrave;me est logiciel. Et que faire en cas de panne mat&eacute;rielle irr&eacute;m&eacute;diable de la carte r&eacute;seau. Avant de continuer, commencez par red&eacute;marrer votre Box (ou modem). Assurez-vous que la panne de r&eacute;seau wifi persiste et que votre ordinateur est bien la cause du probl&egrave;me. Pour ce faire, essayez de vous connecter &agrave; votre wifi depuis votre t&eacute;l&eacute;phone par exemple. Si besoin, voir &eacute;galement les liens suivants: Tuto &ndash; Am&eacute;liorer sa connexion internet et son d&eacute;bit wifi dans toute la maison. Tuto &ndash; R&eacute;parer les erreurs de serveur DNS sur Windows 10 et 11. Le logo du Wifi n&rsquo;apparait plus Logo Wifi Disparu Windows 10 Vous souhaitez vous connecter au Wifi en cliquant en bas &agrave; droite sur le logo du Wifi mais c&rsquo;est le logo mappemonde qui s&rsquo;affiche &agrave; la place. Au survol, la mention &laquo; non connect&eacute; &ndash; aucune connexion disponible &raquo; apparait et quand vous cliquez dessus vous n&rsquo;avez pas acc&egrave;s &agrave; la liste des r&eacute;seaux Wifi disponibles. Dans ce cas, v&eacute;rifiez tout d&rsquo;abord que vous n&rsquo;&ecirc;tes pas d&eacute;j&agrave; branch&eacute; sur le r&eacute;seau &agrave; l&rsquo;aide d&rsquo;un c&acirc;ble RJ45 (Ethernet), sinon le Wifi ne s&rsquo;activera pas et vous verrez le logo ci-dessous &agrave; la place. Logo Wifi Qui Disparait Windows 10 D&eacute;sactiver le mode avion, r&eacute;activer le wifi Le mode avion d&eacute;sactive le wifi et le Bluetooth. V&eacute;rifiez que la tuile affichant un avion ne soit pas activ&eacute;e en bleu. Il se peut que vous ayez malencontreusement activ&eacute; le mode avion. Si le mode avion est affich&eacute; en bleu, cliquez dessus pour qu&rsquo;il se d&eacute;sactive et passe ainsi en gris. Si la tuile wifi visible et d&eacute;sactiv&eacute;e (grise), cliquez simplement sur la tuile pour la faire s&rsquo;afficher en bleu puis connectez-vous &agrave; votre r&eacute;seau wifi dans la liste de r&eacute;seaux qui s&rsquo;affiche. Desactiver Mode Avion Windows 10 R&eacute;activer la carte r&eacute;seau La carte r&eacute;seau permettant de capter le Wifi peut parfois se d&eacute;sactiver &agrave; l&rsquo;issue d&rsquo;un bug ou d&rsquo;une mise &agrave; jour par exemple. Pour la r&eacute;activer : Tapez ncpa.cpl dans la barre de recherche de Windows puis appuyez sur entr&eacute;e pour acc&eacute;der aux param&egrave;tres r&eacute;seaux du panneau de configuration.</p>",
+    "publish": "2024-07-15T13:06:27Z",
+    "created": "2024-07-15T13:10:03.939Z",
+    "updated": "2024-07-17T21:54:40.670Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Écran noir sur PC Windows 10/11: comment résoudre la panne",
+    "author": 1,
+    "image": "images/resoudre-ecran-noir-windows-10.jpeg",
+    "slug": "ecran-noir-sur-pc-windows-1011-comment-resoudre-la-panne",
+    "body": "La panne de l’écran noir sur Windows 10 et Windows 11 (ou versions antérieures) peut survenir à différents moments, sur PC fixe comme PC portable: à l’allumage de l’ordinateur, au démarrage du système d’exploitation, pendant la préparation de la réparation automatique de Windows, ou encore au lancement d’un jeu vidéo gourmant en ressources.\r\n\r\nDe multiples causes matérielles et logicielles peuvent causer ce problème et faire apparaître les messages “No signal detected” ou “No signal” sur votre écran, tels que:\r\n\r\nUne erreur de branchement.\r\nUne carte graphique ou un câble défectueux.\r\nDes bugs logiciels tels qu’un pilote ou une mise à jour mal installés ou périmés.\r\nUne erreur de paramétrage de l’écran, du BIOS ou du PC.\r\n> Dans tous les cas, nous verrons dans ce tutoriel comment résoudre cet incident sur PC fixe ou sur laptop, et quelle(s) pièce(s) remplacer en priorité en cas de défaut matériel.\r\n\r\nSi vous souhaitez éviter de devoir faire appel à un informaticien pour dépanner ce problème d’écran, ce tutoriel est fait pour vous !\r\n\r\nEcran noir à l’allumage\r\nVous appuyez sur le bouton marche/arrêt, le voyant d’état devient vert (ou bleu selon les modèles) mais l’écran reste noire.\r\n\r\nQuelques petites manipulations pourront vous aider à résoudre le problème, néanmoins il est probable qu’une pièce défectueuse en soit à l’origine.",
+    "publish": "2024-07-15T19:45:38Z",
+    "created": "2024-07-15T19:46:16.043Z",
+    "updated": "2024-07-15T19:51:34.396Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Comment résoudre tout problème de serveur DNS qui ne répond pas – Windows 10 et 11",
+    "author": 1,
+    "image": "images/no-internet.jpg",
+    "slug": "comment-resoudre-tout-probleme-de-serveur-dns-qui-ne-repond-pas-windows-10-et-11",
+    "body": "Le problème de serveur DNS qui ne répond plus peut venir de différentes sources:\r\n\r\nVotre opérateur.\r\nLe site que vous tentez de visiter.\r\nLe paramétrage de votre ordinateur.\r\nLa configuration de votre adaptateur réseau.\r\nLa configuration de votre antivirus.\r\nLa configuration ou une panne de votre matériel (prises PCL, amplificateurs de WIFI, Box internet…)\r\nDans ce guide, nous allons faire le tour de toutes les solutions disponnibles pour réparer ou diagnostiquer les configurations de serveurs DNS défaillantes, et que nous avons pu tester lors de nos interventions en tant que techniciens internet et réseau.\r\n\r\nSi vous souhaitez directement aller à l’étape la plus simple et qui devrait régler la plupart des erreurs de DNS, suivez le premier chapitre qui vous explique comment utiliser le logiciel gratuit NetAdapter Repair All In One.\r\n\r\nPour les plus novices, l’utilisation du logiciel NetAdapter Repair All In One est recommandée pour corriger n’importe quel problème DNS. En fait, il est tellement complet qu’il convient à tous les profils d’utilisateurs.\r\n\r\nTéléchargez le logiciel depuis un autre ordinateur et installez-le via une clé USB sur celui qui subit des problèmes de connexion à internet (en cliquant sur le lien ci-dessus). \r\nSélectionnez dans le déroulant encadré en rose votre type connexion: Ethernet si vous êtes connecté à internet en câble, wifi autrement. N’hésitez pas à tester chaque paramètre de connexion si un ne marche pas.\r\nCochez toutes les cases comme dans le rectangle vert puis cliquez sur « Run All Selected » en prenant soins de là aussi cocher la case.\r\nVous pouvez également effectuer un ping Google via « Ping IP » ou un Ping vers les DNS Cloudflare via « Ping DNS ».\r\nSi le logiciel ne résout par votre problème de connexion, tournez-vous vers les solutions détaillées de ce tutoriel. N’hésitez pas à poser une question en commentaire !",
+    "publish": "2024-07-15T19:46:51Z",
+    "created": "2024-07-15T19:50:09.325Z",
+    "updated": "2024-07-15T19:50:09.325Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 1,
+    "nom": "Jonas",
+    "email": "aorlando2889@gmail.com",
+    "commentaire": "Personnellement j'apprend",
+    "created": "2024-07-17T18:56:05.675Z",
+    "updated": "2024-07-17T18:56:05.675Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 3,
+    "nom": "Jean",
+    "email": "orlando@gmail.com",
+    "commentaire": "La plupart du temps c'est du lourd",
+    "created": "2024-07-18T07:01:05.841Z",
+    "updated": "2024-07-18T07:01:05.841Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.sendmail",
+  "pk": 28,
+  "fields": {
+    "name": "Orlando",
+    "email": "acoordinateurtg0935@gmail.com",
+    "to": "aorlando2889@gmail.com",
+    "comments": "C'est la pépite du siècle"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Informatique",
+    "slug": "informatique"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Intelligence artificielle",
+    "slug": "intelligence-artificielle"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "informatique",
+    "slug": "informatique_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]
